@@ -31,10 +31,10 @@ const CustomerReviews = () => {
     <div className="container py-5">
       {/* Header */}
       <div className="text-center mb-4">
-        <h2>Customers About harri. Shop</h2>
+        <h2>Customers About Ventes Infotech</h2>
         <hr
           className="w-25 mx-auto"
-          style={{ borderTop: "3px solid orange" }}
+          style={{ borderTop: "3px solid blue" }}
         />
       </div>
 
