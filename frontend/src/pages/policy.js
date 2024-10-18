@@ -16,7 +16,7 @@ export default function Policy() {
           <>
             Your privacy is important to us. It is Ventes infotech policy to respect
             your privacy regarding <br /> any information we may collect from
-            you across our website, https://ventesinfotech.com, <br /> and other sites
+            you across our website, https://ventesinfotech.com, <br/> and other sites
             we own and operate.
           </>
         }
