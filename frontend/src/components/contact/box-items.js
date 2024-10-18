@@ -36,10 +36,11 @@ const BoxItems = () => {
             content={
               <>
                 <p>
-                  <a href="mailto:location@website.com">location@website.com</a>
+                  <a href="mailto:location@website.com">sales@ventesinfotech.com</a><br/>
+                  <a href="mailto:location@website.com">ventesinfotech@gmail.com</a>
                 </p>
                 <p>
-                  <a href="tel:602-762-472-96">+(602) 762 472 96</a>
+                  <a href="tel:602-762-472-96">+91  96399 94069</a>
                 </p>
               </>
             }
@@ -55,7 +56,7 @@ const BoxItems = () => {
                     href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723"
                     target="_blank"
                   >
-                    88 New South Head Rd, Triple, New York
+                    25/3 EROS Apartment Nehru Place, New Delhi-110019
                   </a>
                 </p>
               </>

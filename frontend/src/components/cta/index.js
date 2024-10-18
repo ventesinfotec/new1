@@ -9,8 +9,8 @@ const ShopCta = () => {
   }
   return (
     <section
-      className="cta__area pt-50 pb-50 p-relative include-bg jarallax"
-      style={{ backgroundColor:"#1106af" }}
+      className="cta__area pt-30 pb-50 p-relative include-bg jarallax"
+      style={{ backgroundColor:"#3985ff" }}
     >
       <div className="container">
         <div style={{borderRadius:"30px"}} className="cta__inner-13 white-bg">

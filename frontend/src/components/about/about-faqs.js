@@ -9,21 +9,21 @@ import useModal from "@hooks/use-modal";
 const faq_items = [
   {
     id: "about-one",
-    title: "Can I cancel my account at any time?",
+    title: "How do I choose the right AV products for my needs?",
     show: true,
-    desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+    desc: "Our website includes detailed product descriptions and specifications to help you make an informed decision. If you need further assistance, you can contact our support team for expert guidance on selecting the best products for your project or business.",
     parent: "faqaccordion",
   },
   {
     id: "about-two",
-    title: "What happens after the license expires?",
-    desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+    title: "Do you offer bulk purchasing or discounts for large orders?",
+    desc: "Yes, we offer bulk purchasing options and volume discounts for large orders. For custom quotes or inquiries about bulk purchases, please contact our sales team.",
     parent: "faqaccordion",
   },
   {
     id: "about-three",
-    title: "Does Harry have any documentations?",
-    desc: "Non similique culpa in provident quos sit commodi beatae ea laborum suscipit id autem velit aut iusto odio et deleniti quis et doloremque enim vel consequuntur quos.",
+    title: " Can I request a custom AV solution for my business or venue? ",
+    desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether it’s for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
     parent: "faqaccordion",
   },
 ];

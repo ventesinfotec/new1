@@ -41,7 +41,7 @@ const CustomerReviews = () => {
       {/* Reviews Section */}
       <div className="row justify-content-center">
         {/* Rating Summary */}
-        <div className="col-md-3 text-center mb-4">
+        <div className="col-md-3 text-center">
           <div className="border p-4 rounded">
             <h3>Excellent</h3>
             <div className="d-flex justify-content-center align-items-center mb-2">
@@ -104,14 +104,14 @@ const CustomerReviews = () => {
       </div>
 
       {/* Footer */}
-      <div className="text-center mt-4">
+      {/* <div className="text-center mt-4">
         <p>
           Please leave us a rating{" "}
           <a href="#" className="text-primary">
             here
           </a>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

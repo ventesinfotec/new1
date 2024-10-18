@@ -3,7 +3,12 @@ import { FaAward, FaBuilding, FaCar, FaConciergeBell, FaGasPump, FaGraduationCap
 
 export default function MoreArea() {
   return (
-    <div style={{backgroundColor:"#1106af"}}  className='my-4 pt-4 text-white'>
+    <section
+      className="cta__area  pb-16 p-relative include-bg jarallax"
+      style={{ backgroundColor:"#3985ff" }}
+    >
+    <div className="pt-4 container">
+     <div   className='text-white'>
       <div className='row text-center'>
         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 p-3'></div>
         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 p-3' style={{ fontSize: '24px', fontWeight: 'bold', color: 'white' }}>Available Solutions </div>
@@ -68,5 +73,8 @@ export default function MoreArea() {
         </div>
       </div>
     </div>
+    </div>
+    </section>
   );
-}
+};
+

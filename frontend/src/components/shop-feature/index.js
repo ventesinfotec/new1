@@ -30,7 +30,7 @@ const ShopFeature = () => {
               title="Free Shipping"
               subtitle={
                 <>
-                  Free Shipping for orders <br /> over $120
+                  Free Shipping for orders 
                 </>
               }
             />
@@ -39,7 +39,7 @@ const ShopFeature = () => {
               title="Refund"
               subtitle={
                 <>
-                  Within 30 days for an <br /> exchange.
+                  Within 3 Days as per  <br /> VI Policy.
                 </>
               }
             />
@@ -48,7 +48,7 @@ const ShopFeature = () => {
               title="Support"
               subtitle={
                 <>
-                  24 hours a day, 7 days <br /> a week
+                  	Support- 24*7
                 </>
               }
             />
@@ -57,7 +57,7 @@ const ShopFeature = () => {
               title="Payment"
               subtitle={
                 <>
-                  Pay with Multiple Credit <br /> Cards
+                   All Mode Accepted
                 </>
               }
             />

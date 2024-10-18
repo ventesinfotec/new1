@@ -23,18 +23,14 @@ const TextArea = () => {
               data-wow-duration="1s"
             >
               <p>
-                Ut at maximus magna. Vestibulum interdum sapien in facilisis
-                imperdiet. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Proin ac placerat
-                risus. Nullam eget tortor felis. Nulla facilisi.Vestibulum
-                mattis diam non luctus elementum. Cras sollicitudin, nisi in
-                semper viverra, felis diam consequat mi, quis tincidunt ligula
+              Welcome to Ventes Infotech, your trusted partner in information technology material trading. With a passion for innovation and a commitment to excellence, we specialize in providing top-quality audio-visual products across all segments, catering to diverse industries and needs. Founded in 2018, our mission is to empower businesses and organizations with cutting-edge technology solutions that enhance communication and engagement. We understand that in today’s fast-paced world, having the right tools is essential for success. That’s why we offer a comprehensive range of audio-visual equipment, from state-of-the-art displays and projectors to advanced sound systems and conferencing solutions. 
               </p>
 
               <p>
-                Nam nibh diam, varius quis lectus eget, laoreet cursus metus.
-                morbi augue lectus, dapibus eget justo nec, consectetur auctor
-                nis luctus neque.!
+              Our team of experienced professionals is dedicated to providing personalized service and expert guidance, ensuring that you find the perfect products to meet your specific requirements. We pride ourselves on building long-lasting relationships with our clients, understanding their unique challenges, and delivering tailored solutions that drive results.
+              </p>
+              <p>
+              At Ventes Infotech, we believe in staying ahead of the curve. We continually explore emerging technologies and trends in the audio-visual space to bring you the best products available. Our commitment to quality, reliability, and customer satisfaction sets us apart in the industry. Join us on this journey as we transform the way you communicate and connect. Whether you're a small business, a large corporation, or an educational institution, we are here to support your audio-visual needs and help you achieve your goals. Thank you for choosing Ventes Infotech We look forward to working with you!
               </p>
             </div>
           </div>

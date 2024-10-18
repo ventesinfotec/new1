@@ -71,7 +71,7 @@ const Footer = () => {
                     { url: "#", title: "About us" },
                     // { url: "#", title: "Careers" },
                     // { url: "#", title: "Store Locations" },
-                    // { url: "#", title: "Our Blog" },
+                    { url: "#", title: "Our Blog" },
                     // { url: "#", title: "Reviews" },
                   ]}
                 />

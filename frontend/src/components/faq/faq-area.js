@@ -37,12 +37,12 @@ export function TabItem({ active, id, accordion_items }) {
       {accordion_items.map((item, i) => (
         <div key={i} className="faq__item pb-95">
           <div className="row">
-            <div className="col-xl-3 col-lg-3 col-md-4">
-              <div className="faq__content">
+            <div className="col-xl-1 col-lg-1 col-md-2">
+              {/* <div className="faq__content">
                 <h3 className="faq__title-2">{item.title}</h3>
-              </div>
+              </div> */}
             </div>
-            <div className="col-xl-9 col-lg-9 col-md-8">
+            <div className="col-xl-11 col-lg-11 col-md-10">
               <div className="faq__wrapper faq__style-4 tp-accordion">
                 <div className="accordion" id={`${id}-${i + 1}_accordion`}>
                   {item.accordions.map((item) => (
@@ -82,7 +82,7 @@ const FaqArea = ({ element_faq = false }) => {
                       title="General Questions"
                     />
                   </li>
-                  <li className="nav-item" role="presentation">
+                  {/* <li className="nav-item" role="presentation">
                     <NavItem
                       id="community"
                       icon={<DotsTwo />}
@@ -91,7 +91,7 @@ const FaqArea = ({ element_faq = false }) => {
                   </li>
                   <li className="nav-item" role="presentation">
                     <NavItem id="support" icon={<Support />} title="Support" />
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -112,81 +112,69 @@ const FaqArea = ({ element_faq = false }) => {
                     accordions: [
                       {
                         id: "One",
-                        title: "Global search engine optimization",
+                        title: "What types of audio-visual (AV) products do you offer",
                         show: true,
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        desc: "We offer a wide range of AV products, including : Displays and monitors (LED, LCD, and more), Projectors and screens, Professional sound systems and speakers, Microphones and conferencing equipment, AV accessories (cables, mounts, remotes), Video conferencing systems",
                         parent: "general-1_accordion",
                       },
                       {
                         id: "Two",
-                        title: " Complete Social Media Integration",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        title: " How do I choose the right AV products for my needs",
+                        desc: "Our website includes detailed product descriptions and specifications to help you make an informed decision. If you need further assistance, you can contact our support team for expert guidance on selecting the best products for your project or business.",
                         parent: "general-1_accordion",
                       },
                       {
                         id: "Three",
-                        title: "Branding Strategy for startups",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        title: "Do you provide product installation services",
+                        desc: "Yes, we offer professional installation services for most of the AV products we sell. During checkout, you can opt for this service, or you can contact us for more information.",
                         parent: "general-1_accordion",
                       },
                       {
                         id: "four",
-                        title: "How long do I get support & updates?",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        title: "Are the AV products on your website covered by a warrant",
+                        desc: "Yes, most of our products come with a manufacturer’s warranty, which can vary depending on the product. Warranty details are provided in the product descriptions or can be requested from our customer service team.",
                         parent: "general-1_accordion",
                       },
-                    ],
-                  },
-                  {
-                    title: (
-                      <>
-                        Returns <br />& Exchanges
-                      </>
-                    ),
-                    accordions: [
+
                       {
                         id: "five",
-                        title: "How do I know my package has shipped?",
+                        title: " Can I request a demo of the AV equipment before purchasing?",
                         show: true,
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        desc: "In some cases, we may offer product demos or video demonstrations. Please contact our sales team to check if demos are available for the products you’re interested in.",
                         parent: "general-2_accordion",
                       },
                       {
                         id: "six",
                         title:
-                          "Why are certain products unavailable to ship to Internationally?",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                          "What are your delivery and shipping options? ",
+                        desc: "We offer multiple shipping options, including standard and expedited delivery. During checkout, you’ll be able to select your preferred shipping method. We ship both domestically and internationally, depending on the location.",
                         parent: "general-2_accordion",
                       },
                       {
                         id: "seven",
-                        title: "Why is my tracking number not updating?",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        title: "Do you offer bulk purchasing or discounts for large orders?",
+                        desc: "Yes, we offer bulk purchasing options and volume discounts for large orders. For custom quotes or inquiries about bulk purchases, please contact our sales team.",
                         parent: "general-2_accordion",
                       },
-                    ],
-                  },
-                  {
-                    title: "Discounts",
-                    accordions: [
+                    
                       {
                         id: "eight",
-                        title: "How do I know my package has shipped?",
+                        title: "What is your return and exchange policy?",
                         show: true,
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        desc: "We have a flexible return and exchange policy. If you are unsatisfied with your purchase, you can return or exchange the item within a specified period (typically 30 days) as long as it is in its original condition. Please refer to our return policy page for more details.",
                         parent: "general-3_accordion",
                       },
                       {
                         id: "nine",
                         title:
-                          "Why are certain products unavailable to ship to Internationally?",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                          " Do you provide technical support for the AV products purchased?",
+                        desc: "Yes, we offer technical support for all AV products purchased through our website. Our team can assist you with setup, troubleshooting, and maintenance queries. You can contact our support team via phone, email, or chat.",
                         parent: "general-3_accordion",
                       },
                       {
                         id: "ten",
-                        title: "Why is my tracking number not updating?",
-                        desc: "A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders",
+                        title: "Can I request a custom AV solution for my business or venue?",
+                        desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether it’s for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
                         parent: "general-3_accordion",
                       },
                     ],
@@ -195,7 +183,7 @@ const FaqArea = ({ element_faq = false }) => {
               />
 
               {/* community */}
-              <TabItem
+              {/* <TabItem
                 id="community"
                 accordion_items={[
                   {
@@ -234,9 +222,9 @@ const FaqArea = ({ element_faq = false }) => {
                   },
                 ]}
               />
-
+ */}
               {/* support */}
-              <TabItem
+              {/* <TabItem
                 id="support"
                 accordion_items={[
                   {
@@ -270,7 +258,7 @@ const FaqArea = ({ element_faq = false }) => {
                     ],
                   },
                 ]}
-              />
+              /> */}
             </div>
           </div>
         </div>

@@ -9,16 +9,19 @@ import { Dashboard, Mobile, Website } from "@svg/index";
     icon: <Website />,
     project: '10k',
     title: "Listed Products",
+    url:"/shop"
   },
   {
     icon: <Mobile />,
     project: '5k',
     title: "Lovely Customer",
+    url:""
   },
   {
     icon: <Dashboard />,
     project: '24h',
     title: "Support",
+    url:"/contact"
   },
 ];
 
@@ -29,7 +32,9 @@ const Services = () => {
         <div className="container">
           <div className="row">
             {service_data.map((item, i) => (
+              
               <div key={i} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                <Link href={item.url}>
                 <div
                   className={`services__item-9 services__item-style-2 mb-30 transition-3`}
                 >
@@ -54,7 +59,9 @@ const Services = () => {
                     </h3>
                   </div>
                 </div>
+                </Link>
               </div>
+              
             ))}
           </div>
         </div>
