@@ -28,7 +28,7 @@ const HeroBanner = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setAnimationKey((prevKey) => prevKey + 1);
-    }, 8000); 
+    }, 7700); 
 
     return () => clearInterval(interval);
   }, []);
@@ -92,7 +92,7 @@ const HeroBanner = () => {
                 marginTop:"40px",
                 height: "550px",
                 animation: `airdrop-image-pulse 2s ease-in-out forwards`,
-                animationDelay: `${index * 1}s`,
+                animationDelay: `${index * 0.5}s`,
                 opacity: 1,
               }}
             />
