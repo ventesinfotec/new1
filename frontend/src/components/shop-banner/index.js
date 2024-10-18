@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 // internal
-import banner from '@assets/img/banner/banner-1.jpg';
+import banner from '@assets/img/banner/banner-2.jpg';
 import { RightArrow } from '@svg/index';
 
 const ShopBanner = () => {
@@ -12,11 +12,11 @@ const ShopBanner = () => {
           <div className="row">
             <div className="col-xl-5 col-lg-6 col-md-8">
               <div className="banner__content">
-                <span>Apple iPhone 12 Pro</span>
-                <h3 className="banner__title">
-                  <Link href="/shop">The wait is on: iphone 12 max pro</Link>
-                </h3>
-                <p>Last call for up to <span>32%</span> off! </p>
+                <span style={{color:"white"}}> All-in-one Solutions</span>
+                <h5 className="banner__title">
+                  <Link href="/shop">The wait is on: Conference Room Combo</Link>
+                </h5>
+                <p style={{color:"white"}}>Last call for up to <span>25%</span> off! </p>
 
                 <div className="banner__btn">
                   <Link href="/shop" className="tp-btn">

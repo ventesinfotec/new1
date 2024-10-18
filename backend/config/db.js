@@ -5,7 +5,7 @@ const { secret } = require('./secret');
 mongoose.set('strictQuery', false);
 
 // it is local url 
-const DB_URL = 'mongodb+srv://akshat:Akshat01@atlascluster.w2v7p.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster';
+const DB_URL = 'mongodb+srv://ventesinfotech:c25QpaEligtajN0V@cluster0.uhhqa.mongodb.net/';
 // it is mongodb url
 const MONGO_URI = secret.db_url;
 
