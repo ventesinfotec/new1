@@ -24,7 +24,6 @@ import brand_18 from "@assets/img/brands/brand-18.png";
 import brand_19 from "@assets/img/brands/brand-19.png";
 import brand_20 from "@assets/img/brands/brand-20.png";
 import brand_21 from "@assets/img/brands/brand-21.png";
-import brand_22 from "@assets/img/brands/brand-22.png";
 import brand_23 from "@assets/img/brands/brand-23.png";
 import brand_24 from "@assets/img/brands/brand-24.png";
 import brand_25 from "@assets/img/brands/brand-25.png";
@@ -92,7 +91,6 @@ const brand_2_data = [
   { brand: brand_19 },
   { brand: brand_20},
   { brand: brand_21 },
-  { brand: brand_22 },
   { brand: brand_23 },
   { brand: brand_24 },
   { brand: brand_25 },
