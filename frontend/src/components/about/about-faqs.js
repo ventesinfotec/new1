@@ -23,7 +23,7 @@ const faq_items = [
   {
     id: "about-three",
     title: " Can I request a custom AV solution for my business or venue? ",
-    desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether it’s for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
+    desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether its for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
     parent: "faqaccordion",
   },
 ];

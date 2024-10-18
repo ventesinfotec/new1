@@ -132,7 +132,7 @@ const FaqArea = ({ element_faq = false }) => {
                       {
                         id: "four",
                         title: "Are the AV products on your website covered by a warrant",
-                        desc: "Yes, most of our products come with a manufacturer’s warranty, which can vary depending on the product. Warranty details are provided in the product descriptions or can be requested from our customer service team.",
+                        desc: "Yes, most of our products come with a manufacturers warranty, which can vary depending on the product. Warranty details are provided in the product descriptions or can be requested from our customer service team.",
                         parent: "general-1_accordion",
                       },
 
@@ -140,14 +140,14 @@ const FaqArea = ({ element_faq = false }) => {
                         id: "five",
                         title: " Can I request a demo of the AV equipment before purchasing?",
                         show: true,
-                        desc: "In some cases, we may offer product demos or video demonstrations. Please contact our sales team to check if demos are available for the products you’re interested in.",
+                        desc: "In some cases, we may offer product demos or video demonstrations. Please contact our sales team to check if demos are available for the products you are interested in.",
                         parent: "general-2_accordion",
                       },
                       {
                         id: "six",
                         title:
                           "What are your delivery and shipping options? ",
-                        desc: "We offer multiple shipping options, including standard and expedited delivery. During checkout, you’ll be able to select your preferred shipping method. We ship both domestically and internationally, depending on the location.",
+                        desc: "We offer multiple shipping options, including standard and expedited delivery. During checkout, you will be able to select your preferred shipping method. We ship both domestically and internationally, depending on the location.",
                         parent: "general-2_accordion",
                       },
                       {
@@ -174,7 +174,7 @@ const FaqArea = ({ element_faq = false }) => {
                       {
                         id: "ten",
                         title: "Can I request a custom AV solution for my business or venue?",
-                        desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether it’s for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
+                        desc: "Absolutely. We specialize in creating custom AV solutions tailored to your specific needs. Whether its for a corporate boardroom, a classroom, or an event venue, our team can design and recommend the best AV setup for you.",
                         parent: "general-3_accordion",
                       },
                     ],
