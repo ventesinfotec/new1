@@ -96,7 +96,7 @@ const Popup = () => {
             <label
               style={{ display: "block", marginTop: "10px", fontSize: "14px" }}
             >
-              <input type="checkbox" /> Don’t show this popup again
+              <input type="checkbox" /> Dont show this popup again
             </label>
           </div>
         </div>
